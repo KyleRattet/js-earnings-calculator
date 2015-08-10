@@ -32,5 +32,7 @@ $(document).on('ready', function() {
 // this button clears the totals
   $('[value="Reset"]').on("click", function(){
     $("span").not(".small").html("");
+    tipArr = [];
+    valuesArr = [];
   })
 });
