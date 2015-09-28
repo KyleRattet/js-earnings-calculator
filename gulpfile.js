@@ -12,7 +12,7 @@ gulp.task('connect', function() {
 
 // configure jshint task
 gulp.task('jshint', function() {
-  return gulp.src('src/javascripts/**/*.js') // update path!
+  return gulp.src('js/*.js') // update path!
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'));
 });
@@ -24,7 +24,8 @@ gulp.task('html', function () {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('source/javascript/**/*.js', ['jshint']); // update path!
+  gulp.watch('js/*.js', ['jshint']); // update path!
+  gulp.watch('*.html', ['html']);
 });
 
 // default task!

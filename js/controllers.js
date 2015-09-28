@@ -1,10 +1,6 @@
 app.controller('mainController', function($scope) {
   $scope.greeting = "Hello-World!";
 
-
-
-
-
   $scope.calculate = function () {
       mealPrice = $scope.mealPrice;
       taxRate = $scope.taxRate;
