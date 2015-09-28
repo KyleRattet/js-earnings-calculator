@@ -1,0 +1,25 @@
+{
+  "name": "js-earnings-calculator",
+  "version": "1.0.0",
+  "description": "## Quick Start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleRattet/js-earnings-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleRattet/js-earnings-calculator/issues"
+  },
+  "homepage": "https://github.com/KyleRattet/js-earnings-calculator#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-jshint": "^1.11.2",
+    "jshint-stylish": "^2.0.1"
+  }
+}

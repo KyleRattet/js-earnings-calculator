@@ -1,0 +1,122 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'livereload' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.6
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /usr/local/lib/package.json
+6 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+7 silly cache add args [ 'livereload', null ]
+8 verbose cache add spec livereload
+9 silly cache add parsed spec { raw: 'livereload',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'livereload',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: '*',
+9 silly cache add   type: 'range' }
+10 silly addNamed livereload@*
+11 verbose addNamed "*" is a valid semver range for livereload
+12 silly addNameRange { name: 'livereload', range: '*', hasData: false }
+13 silly mapToRegistry name livereload
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/livereload
+17 verbose addNameRange registry:https://registry.npmjs.org/livereload not in flight; fetching
+18 verbose get https://registry.npmjs.org/livereload not expired, no request
+19 silly addNameRange number 2 { name: 'livereload', range: '*', hasData: true }
+20 silly addNameRange versions [ 'livereload', [ '0.3.4', '0.3.5', '0.3.6', '0.3.7' ] ]
+21 silly addNamed livereload@0.3.7
+22 verbose addNamed "0.3.7" is a plain semver version for livereload
+23 silly cache afterAdd livereload@0.3.7
+24 verbose afterAdd /Users/KyleRattet/.npm/livereload/0.3.7/package/package.json not in flight; writing
+25 verbose afterAdd /Users/KyleRattet/.npm/livereload/0.3.7/package/package.json written
+26 silly install resolved [ { name: 'livereload',
+26 silly install resolved     description: 'LiveReload server',
+26 silly install resolved     version: '0.3.7',
+26 silly install resolved     contributors: [ [Object] ],
+26 silly install resolved     licenses: [ [Object] ],
+26 silly install resolved     repository:
+26 silly install resolved      { type: 'git',
+26 silly install resolved        url: 'git+ssh://git@github.com/napcs/node-livereload.git' },
+26 silly install resolved     bin: { livereload: './bin/livereload.js' },
+26 silly install resolved     main: './lib/livereload.js',
+26 silly install resolved     dependencies: { opts: '>= 1.2.0', 'websocket.io': '>= 0.1.0' },
+26 silly install resolved     devDependencies:
+26 silly install resolved      { request: '>= 2.9.203',
+26 silly install resolved        should: '>= 0.6.3',
+26 silly install resolved        ws: '>= 0.4.20',
+26 silly install resolved        mocha: '>= 1.0.3',
+26 silly install resolved        'coffee-script': '>= 1.8.0' },
+26 silly install resolved     engines: { node: '>=0.4.0' },
+26 silly install resolved     scripts: { test: 'mocha' },
+26 silly install resolved     gitHead: 'd3ae95422e2720ba68befb7d9036f0061a11cade',
+26 silly install resolved     bugs: { url: 'https://github.com/napcs/node-livereload/issues' },
+26 silly install resolved     homepage: 'https://github.com/napcs/node-livereload',
+26 silly install resolved     _id: 'livereload@0.3.7',
+26 silly install resolved     _shasum: 'dc181cddc0dcdf9211f3a5aaaab1d961f8fad039',
+26 silly install resolved     _from: 'livereload@*',
+26 silly install resolved     _npmVersion: '2.7.3',
+26 silly install resolved     _nodeVersion: '0.12.1',
+26 silly install resolved     _npmUser: { name: 'bphogan', email: 'brianhogan@napcs.com' },
+26 silly install resolved     maintainers: [ [Object] ],
+26 silly install resolved     dist:
+26 silly install resolved      { shasum: 'dc181cddc0dcdf9211f3a5aaaab1d961f8fad039',
+26 silly install resolved        tarball: 'http://registry.npmjs.org/livereload/-/livereload-0.3.7.tgz' },
+26 silly install resolved     directories: {},
+26 silly install resolved     _resolved: 'https://registry.npmjs.org/livereload/-/livereload-0.3.7.tgz',
+26 silly install resolved     readme: 'ERROR: No README data found!' } ]
+27 info install livereload@0.3.7 into /usr/local/lib
+28 info installOne livereload@0.3.7
+29 verbose installOne of livereload to /usr/local/lib not in flight; installing
+30 verbose lock using /Users/KyleRattet/.npm/_locks/livereload-9f0aa9a1725c78c7.lock for /usr/local/lib/node_modules/livereload
+31 silly install write writing livereload 0.3.7 to /usr/local/lib/node_modules/livereload
+32 verbose unbuild lib/node_modules/livereload
+33 info preuninstall livereload@0.3.7
+34 info uninstall livereload@0.3.7
+35 verbose unbuild rmStuff livereload@0.3.7 from /usr/local/lib/node_modules
+36 silly gentlyRm /usr/local/bin/livereload is being gently removed
+37 silly gentlyRm verifying /usr/local is an npm working directory
+38 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+39 silly gentlyRm deletion target /usr/local/bin/livereload is under /usr/local
+40 verbose gentlyRm vacuuming from /usr/local/bin/livereload up to /usr/local
+41 info postuninstall livereload@0.3.7
+42 silly gentlyRm /usr/local/lib/node_modules/livereload is being purged from base /usr/local
+43 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/livereload
+44 silly vacuum-fs purging /usr/local/lib/node_modules/livereload
+45 verbose unlock done using /Users/KyleRattet/.npm/_locks/livereload-9f0aa9a1725c78c7.lock for /usr/local/lib/node_modules/livereload
+46 verbose stack Error: EACCES, unlink '/usr/local/lib/node_modules/livereload/.npmignore'
+46 verbose stack     at Error (native)
+47 verbose cwd /Users/KyleRattet/Documents/Practice/js-earnings-calculator
+48 error Darwin 14.4.0
+49 error argv "node" "/usr/local/bin/npm" "install" "-g" "livereload"
+50 error node v0.12.6
+51 error npm  v2.12.1
+52 error path /usr/local/lib/node_modules/livereload/.npmignore
+53 error code EACCES
+54 error errno -13
+55 error Error: EACCES, unlink '/usr/local/lib/node_modules/livereload/.npmignore'
+55 error     at Error (native)
+55 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/livereload/.npmignore']
+55 error   errno: -13,
+55 error   code: 'EACCES',
+55 error   path: '/usr/local/lib/node_modules/livereload/.npmignore' }
+56 error Please try running this command again as root/Administrator.
+57 verbose exit [ -13, true ]
+58 verbose unbuild lib/node_modules/livereload
+59 info preuninstall livereload@0.3.7
+60 info uninstall livereload@0.3.7
+61 verbose unbuild rmStuff livereload@0.3.7 from /usr/local/lib/node_modules
+62 silly gentlyRm /usr/local/bin/livereload is being gently removed
+63 silly gentlyRm verifying /usr/local is an npm working directory
+64 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+65 silly gentlyRm deletion target /usr/local/bin/livereload is under /usr/local
+66 verbose gentlyRm vacuuming from /usr/local/bin/livereload up to /usr/local
+67 info postuninstall livereload@0.3.7
+68 silly gentlyRm /usr/local/lib/node_modules/livereload is being purged from base /usr/local
+69 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/livereload
+70 silly vacuum-fs purging /usr/local/lib/node_modules/livereload
+71 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/livereload/.npmignore'
+71 error error rolling back     at Error (native)
+71 error error rolling back  { [Error: EACCES, unlink '/usr/local/lib/node_modules/livereload/.npmignore']
+71 error error rolling back   errno: -13,
+71 error error rolling back   code: 'EACCES',
+71 error error rolling back   path: '/usr/local/lib/node_modules/livereload/.npmignore' }
